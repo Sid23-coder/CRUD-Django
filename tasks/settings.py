@@ -15,7 +15,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-v(mho8306pr4!^b1$xapv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['django-crud-1cgj.onrender.com', 'https://crud-django-0bcy.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['django-crud-1cgj.onrender.com', 'crud-django-0bcy.onrender.com', 'localhost', '127.0.0.1']
 
 # Application definition
 INSTALLED_APPS = [
